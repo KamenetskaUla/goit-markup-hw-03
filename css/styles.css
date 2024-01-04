@@ -183,7 +183,7 @@ a {
   flex-direction: row;
   gap: 24px;
   align-items: center;
-  margin-left: 156px;
+  margin: 0 156px;
 }
 .team-fon {
   background-color: #f4f4fd;
@@ -201,6 +201,19 @@ a {
 }
 .team-fon-item {
   background-color: #ffffff;
+}
+
+/*-----Portfolio------*/
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 24px;
+  margin: 0 156px;
+}
+.port-item {
+  width: calc((100% - 48px) / 3);
 }
 
 /*------Footer--------*/

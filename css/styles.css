@@ -7,8 +7,30 @@ body {
 }
 ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
-
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.container {
+  max-width: 1528px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -17,6 +39,8 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  margin-right: 76px;
+  padding: 25.5px;
 }
 .logo-web {
   color: #2e2f42;
@@ -30,6 +54,7 @@ a {
   color: #2e2f42;
   letter-spacing: 0.02em;
   text-align: left;
+  display: block;
 }
 .head-link:hover,
 .head-link:focus {
@@ -42,6 +67,12 @@ a {
   color: #434455;
   font-style: normal;
   letter-spacing: 0.02em;
+  margin-left: auto;
+}
+.adress-list {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
 }
 .contacts:hover,
 .contacts:focus {
@@ -49,6 +80,13 @@ a {
 }
 .page-title-fon {
   background-color: #2e2f42;
+
+  width: auto;
+  height: 600px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 .page-title {
   font-size: 56px;
@@ -57,6 +95,9 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  padding-top: 188px;
+  display: flex;
+  width: 496px;
 }
 .button {
   cursor: pointer;
@@ -67,6 +108,13 @@ a {
   text-align: left;
   color: #ffffff;
   background-color: #4d5ae5;
+  padding-left: 32px;
+  padding-right: 32px;
+  text-align: center;
+  display: inline-flex;
+  padding: 16px 32px;
+
+  gap: 10px;
 }
 .button:hover,
 .button:focus {

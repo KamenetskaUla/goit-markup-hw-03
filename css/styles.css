@@ -146,6 +146,9 @@ a {
 
 /*--------Advantages-------*/
 
+.advantages-title {
+  display: none;
+}
 .advantages {
   display: flex;
   gap: 24px;
@@ -170,6 +173,11 @@ a {
 
 /*--------Team----------*/
 
+.team-container {
+  display: flex;
+  gap: 72px;
+  flex-direction: column;
+}
 .team {
   display: flex;
   flex-direction: row;

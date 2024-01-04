@@ -5,11 +5,34 @@ body {
   text-decoration: none;
   line-height: 1.5;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
+
+.container {
+  max-width: 1528px;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+.section {
+  padding: 120px 0;
+}
+
+/*---------Heder----------*/
+
 .navigation {
   display: flex;
   align-items: center;
@@ -22,11 +45,7 @@ ul {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.container {
-  max-width: 1528px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -45,9 +64,7 @@ ul {
 .logo-web {
   color: #2e2f42;
 }
-a {
-  text-decoration: none;
-}
+
 .head-link {
   font-size: 16px;
   font-weight: 500;
@@ -78,6 +95,9 @@ a {
 .contacts:focus {
   color: #404bbf;
 }
+
+/*-------Hero---------*/
+
 .page-title-fon {
   background-color: #2e2f42;
 
@@ -96,7 +116,7 @@ a {
   text-align: center;
   color: #ffffff;
   padding-top: 188px;
-  display: flex;
+
   width: 496px;
 }
 .button {
@@ -124,6 +144,12 @@ a {
   background-color: #404bbf;
 }
 
+/*--------Advantages-------*/
+
+.advantages {
+  display: flex;
+  gap: 24px;
+}
 .head-item {
   font-size: 20px;
   font-weight: 500;
@@ -131,6 +157,7 @@ a {
   letter-spacing: 0.02em;
   text-align: left;
   color: #2e2f42;
+  display: block;
 }
 .text {
   color: #434455;
@@ -140,10 +167,21 @@ a {
   letter-spacing: 0.02em;
   text-align: left;
 }
+
+/*--------Team----------*/
+
+.team {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  margin-left: 156px;
+}
 .team-fon {
   background-color: #f4f4fd;
 }
 .team-title {
+  display: flex;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -151,10 +189,13 @@ a {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin: 0 639px;
 }
 .team-fon-item {
   background-color: #ffffff;
 }
+
+/*------Footer--------*/
 
 .footer-fon {
   background-color: #2e2f42;

@@ -73,7 +73,7 @@ a {
   letter-spacing: 0.02em;
   text-align: left;
   display: block;
-  padding-left: 24px;
+  padding-top: 24px;
   padding-bottom: 24px;
 }
 .head-link:hover,
@@ -155,7 +155,7 @@ a {
 .first-ad {
   width: calc((100% - 72px) / 4);
 }
-. visually-hidden {
+.visually-hidden {
   position: absolute;
   left: -9999px;
   width: 1px;
@@ -203,16 +203,15 @@ a {
 
   align-items: center;
   margin: 0 156px;
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
 }
 .team:first-child {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
-  text-align: center;
 }
 .team-name {
   padding: 32px 0;
+
+  text-align: center;
 }
 .team-fon {
   background-color: #f4f4fd;

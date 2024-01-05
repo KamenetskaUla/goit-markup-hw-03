@@ -153,7 +153,9 @@ a {
 .advantages-title {
   display: none;
 }
-
+.first-ad {
+  width: calc((100% - 72px) / 4);
+}
 .visually-hidden {
   position: absolute;
   left: -9999px;
@@ -199,6 +201,7 @@ a {
   display: flex;
   flex-direction: row;
   gap: 24px;
+
   align-items: center;
   margin: 0 156px;
 }
@@ -302,6 +305,7 @@ a {
 }
 .footer-fon {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .text-footer {
   color: #f4f4fd;

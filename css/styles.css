@@ -201,7 +201,7 @@ a {
 
 .team-container {
   display: flex;
-  gap: 72px;
+
   flex-direction: column;
 
   align-items: center;
@@ -238,6 +238,7 @@ a {
   color: #2e2f42;
   margin: 0 auto;
   width: auto;
+  margin-bottom: 72px;
 }
 .team-fon-item {
   background-color: #ffffff;

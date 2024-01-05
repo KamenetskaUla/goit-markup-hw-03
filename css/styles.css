@@ -231,6 +231,7 @@ a {
 .team-fon-item {
   background-color: #ffffff;
   text-align: center;
+  border-radius: 0px 0px 4px 4px;
 }
 .team-item {
   font-size: 20px;

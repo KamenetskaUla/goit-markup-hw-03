@@ -203,13 +203,16 @@ a {
 
   align-items: center;
   margin: 0 156px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team:first-child {
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
 }
 .team-name {
   padding: 32px 0;
-  border-radius: 0px 0px 4px 4px;
 }
 .team-fon {
   background-color: #f4f4fd;
@@ -228,6 +231,7 @@ a {
 }
 .team-fon-item {
   background-color: #ffffff;
+  text-align: center;
 }
 .team-item {
   font-size: 20px;
